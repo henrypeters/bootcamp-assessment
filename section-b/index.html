@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Token Launch Countdown</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Token Launch</h1>
+    <div class="subtitle">Countdown to the big release</div>
+
+    <div id="countdown">
+      <div class="timer">
+        <div class="time-box">
+          <span id="days">0</span>
+          <small>Days</small>
+        </div>
+        <div class="time-box">
+          <span id="hours">0</span>
+          <small>Hours</small>
+        </div>
+        <div class="time-box">
+          <span id="minutes">0</span>
+          <small>Minutes</small>
+        </div>
+        <div class="time-box">
+          <span id="seconds">0</span>
+          <small>Seconds</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="progress-container">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <div class="date-picker">
+      <input type="datetime-local" id="targetDate">
+    </div>
+
+    <div class="subscribe">
+      <input type="email" id="emailInput" placeholder="Enter your email">
+      <button id="subscribeBtn">Subscribe</button>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>

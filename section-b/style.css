@@ -1,0 +1,118 @@
+   body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: radial-gradient(circle at top, #020617, #000);
+      color: #e5e7eb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: #020617;
+      padding: 30px;
+      width: 420px;
+      border-radius: 14px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 8px;
+      font-size: 26px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #94a3b8;
+      margin-bottom: 25px;
+    }
+
+    .timer {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .time-box {
+      background: #020617;
+      border: 1px solid #1e293b;
+      padding: 12px;
+      border-radius: 10px;
+    }
+
+    .time-box span {
+      display: block;
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .time-box small {
+      font-size: 12px;
+      color: #94a3b8;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .launched {
+      font-size: 28px;
+      color: #22c55e;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+
+    .date-picker {
+      margin: 20px 0;
+    }
+
+    .date-picker input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+      font-size: 14px;
+    }
+
+    .progress-container {
+      background: #1e293b;
+      height: 10px;
+      border-radius: 999px;
+      overflow: hidden;
+      margin: 15px 0 25px;
+    }
+
+    .progress-bar {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #22c55e, #4ade80);
+      transition: width 0.5s ease;
+    }
+
+    .subscribe {
+      display: flex;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .subscribe input {
+      flex: 1;
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+      font-size: 14px;
+    }
+
+    .subscribe button {
+      padding: 10px 14px;
+      background: #2563eb;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      cursor: pointer;
+    }
+
+    .subscribe button:hover {
+      background: #1d4ed8;
+    }
